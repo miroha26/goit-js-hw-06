@@ -14,13 +14,5 @@ colorChangeBtn.addEventListener("click", () => {
   bodyBackground.style.backgroundColor = color;
   currentColor.textContent = color;
 });
-function order(words) {
-  if (words === "") return "";
-  const arr = words.split(" ");
-  const newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    const element = arr[i];
-  }
-}
-console.log(order("is2 Thi1s T4est 3a"));
 
+console.log(order("is2 Thi1s T4est 3a"));

@@ -10,4 +10,3 @@ categoriesListItems.forEach((category) => {
   console.log("Category: ", categoryName.textContent);
   console.log("Elements: ", categoryElements.length);
 });
-

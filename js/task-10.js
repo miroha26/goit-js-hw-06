@@ -31,4 +31,3 @@ boxesCreationBtn.addEventListener("click", (event) => {
 boxesDemolishBtn.addEventListener("click", (event) => {
   newBoxes.innerHTML = "";
 });
-

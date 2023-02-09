@@ -22,11 +22,13 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-.gallery{
+
+.gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 50px;
 }
+
 #validation-input {
   border: 3px solid #bdbdbd;
 }

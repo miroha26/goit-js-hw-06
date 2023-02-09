@@ -15,4 +15,3 @@ increaseByOne.addEventListener("click", () => {
   counterValue += 1;
   counter.textContent = counterValue;
 });
-

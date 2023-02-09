@@ -5,4 +5,3 @@ const textID = document.querySelector("#text");
 inputID.addEventListener("input", () => {
   textID.style.fontSize = inputID.value + "px";
 });
-

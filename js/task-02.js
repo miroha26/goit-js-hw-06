@@ -9,26 +9,6 @@ const ingredients = [
 
 const ingredientsList = document.querySelector("#ingredients");
 
-// 1=================================
-
-// ingredients.map((el) => {
-// const ingredient = document.createElement("li");
-//   ingredient.textContent = el;
-
-//   ingredientsList.append(ingredient);
-
-//   return ingredient;
-// })
-
-// 2==================================
-
-// const ingredientsMarkUpList = ingredients.map(ing => {
-//   return `<li>${ing}</li>`
-// }).join("")
-
-// ingredientsList.insertAdjacentHTML("afterbegin",ingredientsMarkUpList )
-
-// 3==================================
 const listElement = document.createDocumentFragment();
 
 ingredients.forEach((ingredient) => {
@@ -39,4 +19,3 @@ ingredients.forEach((ingredient) => {
 });
 
 ingredientsList.appendChild(listElement);
-

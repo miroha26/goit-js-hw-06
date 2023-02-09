@@ -24,4 +24,3 @@ const makeImagesListMarkup = ({ url, alt }) => {
 const makeImagesList = images.map(makeImagesListMarkup).join("");
 
 galleryList.insertAdjacentHTML("afterbegin", makeImagesList);
-
